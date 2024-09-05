@@ -12,7 +12,10 @@ This project is a frontend application developed as part of my internship at Lun
 You can watch a video overview of the project
 
 
-https://github.com/user-attachments/assets/eed5b558-695b-4ade-a75a-2e87f3a72910
+
+
+https://github.com/user-attachments/assets/ffc7807a-0a74-4638-a78d-d243e7a95f74
+
 
 
 
@@ -25,7 +28,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 Make sure you have the following installed on your machine:
 
-- Node.js (v14.x or later)
+
 - npm (v6.x or later)
 
 ### Installation
