@@ -83,7 +83,10 @@ function Rightbot() {
         {/* Closing of rightsideicon */}
       </div>
       {/* Closing for box1 */}
-      <div className="problem" style={{ display: "flex", flexDirection: "column" }}>
+      <div
+        className="problem"
+        style={{ display: "flex", flexDirection: "column" }}
+      >
         <div
           className="box2"
           style={{
@@ -95,16 +98,22 @@ function Rightbot() {
             flexDirection: "row",
           }}
         >
-          <div className="addimage">
-            <CustomButton>Gallery</CustomButton>
-          </div>
+         
           {/* Closing of add gallery */}
-          <div className="button" style={{ display: "flex", gap: "30px" }}>
+          <div className="button" style={{ display: "flex", gap: "130px" , color: '#D3D3D3' }}>
+          <div className="addimage">
+           
+            <CustomButton>Gallery</CustomButton>
+            
+          </div>
+
+
+          <div className="arrow"  style={{display:'flex', gap:'20px'}}>
             <div style={{ position: "relative" }}>
               <button
                 style={{
-                 boxShadow:
-      "rgba(0, 0, 0, 0.4) 5px 5px 20px 0px, rgba(0, 0, 0, 0.2) 10px 10px 30px 0px, rgba(0, 0, 0, 0.1) 15px 15px 40px 0px, rgba(255, 255, 255, 0.5) 0 0 20px 0px",
+                  boxShadow:
+                  "rgba(0, 0, 0, 0.4) 5px 5px 20px 0px, rgba(0, 0, 0, 0.2) 10px 10px 30px 0px, rgba(0, 0, 0, 0.1) 15px 15px 40px 0px, rgba(255, 255, 255, 0.5) 0 0 15px 0px, rgba(0, 0, 0, 0.4) 5px 5px 10px 0px",
                   width: "150px",
                   touchAction: "manipulation",
                   height: "49px",
@@ -116,7 +125,7 @@ function Rightbot() {
                   backgroundColor: "#42484E",
                   alignItems: "center",
                   justifyContent: "center",
-                  borderRadius: "16px",
+                  borderRadius: "25px",
                   border: "0px solid white",
                   color: "#A3ADB2",
                   position: "relative",
@@ -140,20 +149,23 @@ function Rightbot() {
                 }}
               />
             </div>
+            
             <button
               onClick={scrollLeft}
               style={{
-                background: "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
+                background:
+                  "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
                 width: "45px",
                 height: "45px",
                 borderRadius: "50px",
-                display:'flex',
-                alignItems:'center',
-                justifyContent:'center',
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
                 border: "0px solid white",
-                boxShadow: "rgba(0, 0, 0, 0.4) 5px 5px 10px 0px, rgba(0, 0, 0, 0.2) 10px 10px 20px 0px, rgba(0, 0, 0, 0.1) 15px 15px 30px 0px, rgba(255, 255, 255, 0.5) 0 0 10px 0px",
+                boxShadow:
+                  "rgba(0, 0, 0, 0.4) 5px 5px 10px 0px, rgba(0, 0, 0, 0.2) 10px 10px 20px 0px, rgba(0, 0, 0, 0.1) 15px 15px 30px 0px, rgba(255, 255, 255, 0.5) 0 0 10px 0px",
                 backgroundColor: "#1E2022",
-                color:"#494F53"
+               color: '#D3D3D3'
               }}
             >
               <FaArrowLeft />
@@ -161,22 +173,24 @@ function Rightbot() {
             <button
               onClick={scrollRight}
               style={{
-                
-                background: "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
+                background:
+                  "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
                 width: "45px",
                 height: "45px",
                 borderRadius: "50px",
-                display:'flex',
-                alignItems:'center',
-                justifyContent:'center',
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
                 border: "0px solid white",
-                boxShadow: "rgba(0, 0, 0, 0.4) 5px 5px 10px 0px, rgba(0, 0, 0, 0.2) 10px 10px 20px 0px, rgba(0, 0, 0, 0.1) 15px 15px 30px 0px, rgba(255, 255, 255, 0.5) 0 0 10px 0px",
+                boxShadow:
+                  "rgba(0, 0, 0, 0.4) 5px 5px 10px 0px, rgba(0, 0, 0, 0.2) 10px 10px 20px 0px, rgba(0, 0, 0, 0.1) 15px 15px 30px 0px, rgba(255, 255, 255, 0.5) 0 0 10px 0px",
                 backgroundColor: "#1E2022",
-                color:"#494F53",
+                color: "#D3D3D3",
               }}
             >
               <FaArrowRight />
             </button>
+            </div>{/* Closing of arrow  */}
           </div>
           {/* Closing of buttons */}
         </div>
@@ -260,6 +274,39 @@ function Rightbot() {
             }}
           />
           <img
+            src="https://s3-alpha-sig.figma.com/img/2dff/d2b7/1745c822191edd472339021e67b723d0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D6H89TChaoFBeAlz1owe1RE3kzJ1~H0lf1CDbIGJgUxlr7znQ9nJO27KixQAYnEXlj1Xbxdd1R~UooNNkQavS5UjOyv0bClwaI5NvxIDARYiWu65rNhrufzA0QWjCPFAjqlHwFg8RYa~H5iOfxKXUSfumpvHaHu11oZKdVSdC-i63-4hevhtH2g52ggP40e6vImXrrAZCxD0~xqW18TY5pAgPOYElQxqv6wLa96VdgkAD63wENhVMXxh4Dhyp5BSe62HgKji~RwpxvdjZ41CxiKl5Mtpq1m3aPSGFmAnUmy8b3Qq1Tt-ANw00-9VBhT0GDOLNCqZL9vUnotAuX1dDw__"
+            alt=""
+            srcset=""
+            style={{
+              height: "169px",
+              borderRadius: "10px",
+              filter: "grayscale(100%)",
+              width: "190px",
+            }}
+          />
+           <img
+            src="https://s3-alpha-sig.figma.com/img/2dff/d2b7/1745c822191edd472339021e67b723d0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D6H89TChaoFBeAlz1owe1RE3kzJ1~H0lf1CDbIGJgUxlr7znQ9nJO27KixQAYnEXlj1Xbxdd1R~UooNNkQavS5UjOyv0bClwaI5NvxIDARYiWu65rNhrufzA0QWjCPFAjqlHwFg8RYa~H5iOfxKXUSfumpvHaHu11oZKdVSdC-i63-4hevhtH2g52ggP40e6vImXrrAZCxD0~xqW18TY5pAgPOYElQxqv6wLa96VdgkAD63wENhVMXxh4Dhyp5BSe62HgKji~RwpxvdjZ41CxiKl5Mtpq1m3aPSGFmAnUmy8b3Qq1Tt-ANw00-9VBhT0GDOLNCqZL9vUnotAuX1dDw__"
+            alt=""
+            srcset=""
+            style={{
+              height: "169px",
+              borderRadius: "10px",
+              filter: "grayscale(100%)",
+              width: "190px",
+            }}
+          />
+           <img
+            src="https://s3-alpha-sig.figma.com/img/2dff/d2b7/1745c822191edd472339021e67b723d0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D6H89TChaoFBeAlz1owe1RE3kzJ1~H0lf1CDbIGJgUxlr7znQ9nJO27KixQAYnEXlj1Xbxdd1R~UooNNkQavS5UjOyv0bClwaI5NvxIDARYiWu65rNhrufzA0QWjCPFAjqlHwFg8RYa~H5iOfxKXUSfumpvHaHu11oZKdVSdC-i63-4hevhtH2g52ggP40e6vImXrrAZCxD0~xqW18TY5pAgPOYElQxqv6wLa96VdgkAD63wENhVMXxh4Dhyp5BSe62HgKji~RwpxvdjZ41CxiKl5Mtpq1m3aPSGFmAnUmy8b3Qq1Tt-ANw00-9VBhT0GDOLNCqZL9vUnotAuX1dDw__"
+            alt=""
+            srcset=""
+            style={{
+              height: "169px",
+              borderRadius: "10px",
+              filter: "grayscale(100%)",
+              width: "190px",
+            }}
+          />
+           <img
             src="https://s3-alpha-sig.figma.com/img/2dff/d2b7/1745c822191edd472339021e67b723d0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D6H89TChaoFBeAlz1owe1RE3kzJ1~H0lf1CDbIGJgUxlr7znQ9nJO27KixQAYnEXlj1Xbxdd1R~UooNNkQavS5UjOyv0bClwaI5NvxIDARYiWu65rNhrufzA0QWjCPFAjqlHwFg8RYa~H5iOfxKXUSfumpvHaHu11oZKdVSdC-i63-4hevhtH2g52ggP40e6vImXrrAZCxD0~xqW18TY5pAgPOYElQxqv6wLa96VdgkAD63wENhVMXxh4Dhyp5BSe62HgKji~RwpxvdjZ41CxiKl5Mtpq1m3aPSGFmAnUmy8b3Qq1Tt-ANw00-9VBhT0GDOLNCqZL9vUnotAuX1dDw__"
             alt=""
             srcset=""
