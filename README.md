@@ -2,6 +2,7 @@
 # Lunacal-Task
 
 This repository contains the frontend task.
+*All buttons are working after click on add image you can add image from your PC. *
 
 ## Overview
 
