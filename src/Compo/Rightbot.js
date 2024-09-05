@@ -103,8 +103,8 @@ function Rightbot() {
             <div style={{ position: "relative" }}>
               <button
                 style={{
-                  boxShadow:
-                    "rgba(0, 0, 0, 0.4) 5px 5px 10px 0px, rgba(0, 0, 0, 0.2) 10px 10px 20px 0px, rgba(0, 0, 0, 0.1) 15px 15px 30px 0px",
+                 boxShadow:
+      "rgba(0, 0, 0, 0.4) 5px 5px 20px 0px, rgba(0, 0, 0, 0.2) 10px 10px 30px 0px, rgba(0, 0, 0, 0.1) 15px 15px 40px 0px, rgba(255, 255, 255, 0.5) 0 0 20px 0px",
                   width: "150px",
                   touchAction: "manipulation",
                   height: "49px",
@@ -143,19 +143,17 @@ function Rightbot() {
             <button
               onClick={scrollLeft}
               style={{
-                background:
-                  "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
+                background: "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
                 width: "45px",
                 height: "45px",
                 borderRadius: "50px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                display:'flex',
+                alignItems:'center',
+                justifyContent:'center',
                 border: "0px solid white",
-                boxShadow:
-                  "rgba(0, 0, 0, 0.4) 5px 5px 10px 0px, rgba(0, 0, 0, 0.2) 10px 10px 20px 0px, rgba(0, 0, 0, 0.1) 15px 15px 30px 0px",
+                boxShadow: "rgba(0, 0, 0, 0.4) 5px 5px 10px 0px, rgba(0, 0, 0, 0.2) 10px 10px 20px 0px, rgba(0, 0, 0, 0.1) 15px 15px 30px 0px, rgba(255, 255, 255, 0.5) 0 0 10px 0px",
                 backgroundColor: "#1E2022",
-                color: "#494F53",
+                color:"#494F53"
               }}
             >
               <FaArrowLeft />
@@ -163,19 +161,18 @@ function Rightbot() {
             <button
               onClick={scrollRight}
               style={{
-                background:
-                  "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
+                
+                background: "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
                 width: "45px",
                 height: "45px",
                 borderRadius: "50px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                display:'flex',
+                alignItems:'center',
+                justifyContent:'center',
                 border: "0px solid white",
-                boxShadow:
-                  "rgba(0, 0, 0, 0.4) 5px 5px 10px 0px, rgba(0, 0, 0, 0.2) 10px 10px 20px 0px, rgba(0, 0, 0, 0.1) 15px 15px 30px 0px",
+                boxShadow: "rgba(0, 0, 0, 0.4) 5px 5px 10px 0px, rgba(0, 0, 0, 0.2) 10px 10px 20px 0px, rgba(0, 0, 0, 0.1) 15px 15px 30px 0px, rgba(255, 255, 255, 0.5) 0 0 10px 0px",
                 backgroundColor: "#1E2022",
-                color: "#494F53",
+                color:"#494F53",
               }}
             >
               <FaArrowRight />
